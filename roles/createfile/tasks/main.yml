@@ -1,0 +1,4 @@
+- name: creating a file
+  ansible.builtin.file:
+    path: newdir/newfile.txt
+    state: touch

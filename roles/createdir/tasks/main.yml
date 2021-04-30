@@ -1,0 +1,5 @@
+- name: creating a dir
+  ansible.builtin.file:
+    path: newdir
+    state: directory
+    mode: '0755'

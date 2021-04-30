@@ -1,0 +1,5 @@
+- name: Writing a file
+  copy:
+    dest: "newdir/newfile.txt"
+    content: |
+      Hi Everyone

@@ -1,0 +1,19 @@
+---
+
+- hosts: localhost
+  connection: local
+  become: true
+  roles:
+    - createdir
+
+- hosts: localhost
+  connection: local
+  become: true
+  roles:
+    - createfile
+
+- hosts: localhost
+  connection: local
+  become: true
+  roles:
+    - write
